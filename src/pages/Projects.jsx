@@ -117,9 +117,9 @@ const Projects = () => {
               </button>
               <h2 className="text-3xl font-bold mb-4">{selectedProject.title}</h2>
               <p className="mb-4">{selectedProject.detailDesc}</p>
-              <div className="flex space-x-3 mb-4">
+              <div className="flex flex-wrap space-x-3 mb-4">
                 {selectedProject.techStack.map((tech) => (
-                  <span key={tech} className="px-4 py-2 bg-gray-800 text-gray-400 rounded-full text-sm">
+                  <span key={tech} className="m-2 px-4 py-2 bg-gray-800 text-gray-400 rounded-full text-sm ">
                     {tech}
                   </span>
                 ))}

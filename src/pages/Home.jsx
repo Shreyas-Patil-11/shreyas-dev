@@ -47,14 +47,14 @@ const Home = () => {
           <div className="mt-10">
             <button
               onClick={handleScroll}
-              className="px-8 py-3 bg-[#8A2BE2] text-white text-lg font-semibold rounded-lg shadow-md 
+              className="mb-3 px-8 py-3 bg-[#8A2BE2] text-white text-lg font-semibold rounded-lg shadow-md 
                         hover:bg-[#0E76A8] transition-all duration-300"
             >
               Explore My Projects
             </button>
             <button
               onClick={toggleContact}
-              className="ml-6 px-8 py-3 bg-[#A9A9A9] text-[#000000] text-lg font-semibold rounded-lg shadow-md 
+              className="mb-3 ml-6 px-8 py-3 bg-[#A9A9A9] text-[#000000] text-lg font-semibold rounded-lg shadow-md 
                         hover:bg-[#8b8b8b] transition-all duration-300"
             >
               Get in Touch
