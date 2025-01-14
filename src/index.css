@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Reset margins and paddings */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #000000; /* Pure black background */
+}
+
+/* Ensure container takes full width */
+.container {
+  max-width: 100%;
+}
+
+/* Add this in your CSS file */
+.date-text {
+  display: none;
+}
+
+@media (max-width: 1165px) {
+  .date-text {
+    display: block;
+  }
+}
+
+
+
+
+
+
